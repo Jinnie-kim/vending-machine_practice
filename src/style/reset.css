@@ -42,12 +42,11 @@
   }
 
   .text-hide {
-      position: absolute;
-      clip: rect(0 0 0 0);
-      width: 1px;
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
+    display:block;
+    overflow:hidden;
+    Font-size:1px;
+    line-height:0;
+    text-indent:-9999px;
   }
   
   .text-ellipsis {
