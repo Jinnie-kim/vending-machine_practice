@@ -305,3 +305,23 @@ body {
     margin-top: 6px;
     margin-bottom: 26px;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+    background-color: #fff;
+    }
+
+    .cola-page {
+    padding-top: 65px;
+    }
+
+    .cola-page .cola-page-title {
+    width: 166px;
+    height: 70px;
+    }
+
+    .cola-info .content-items {
+    margin-top: 0;
+    padding: 31px 27px 32px;
+    }
+}
